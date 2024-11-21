@@ -1,0 +1,210 @@
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import 'variables';
+@import 'mobile-nav';
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, $background-cmain, $background-cmain, $background-c2);
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 0 auto;
+  margin: 1em auto;
+}
+
+.content {
+  max-width: 60rem;
+  width: 100%;
+  margin: 2em auto;
+
+  img {
+    max-width: 20em;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 2em auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+}
+
+/* header and footer */
+
+.header,
+.footer {
+  flex: 0 0 auto;
+  width: 100%;
+  font-size: 1.5em;
+  border-bottom: 2px solid #222;
+}
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: $background-c3;
+}
+
+.header img {
+  border: 2px solid #222;
+}
+
+.header h1 a {
+  color: $textcolor-headline;
+  font-family: $font-headline, 'Segoe UI', Verdana, sans-serif;
+
+  &:hover {
+    color: $textcolor-headline;
+  }
+}
+
+.header a {
+  color: $textcolor-soft;
+
+  &:hover {
+    color: $textcolor-headline;
+  }
+}
+
+/* Title */
+
+@media (min-width: 767px) {
+  .title {
+    margin-top: 2em;
+    margin-left: 2em;
+    word-wrap: break-word;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+}
+
+/* mobile specials */
+
+@media (max-width: 767px) {
+  .header,
+  .site-header {
+    display: flex;
+    align-items: center; /* Vertikalt centrerat */
+  }
+
+  .header {
+    border-top: 2px solid #222;
+  }
+
+  .main {
+    margin: 1em;
+  }
+
+  .title {
+    min-width: 50%;
+
+    h1 {
+      font-size: 1.5em !important;
+      line-height: 1em;
+    }
+  }
+
+  .logo {
+    max-width: 30%;
+  }
+
+  .header,
+  .site-header {
+    flex-wrap: wrap;
+  }
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $textcolor-soft;
+  background-color: $background-c4;
+  border-bottom: 4px solid $background-c4;
+  width: 100%;
+  padding: 0.5em;
+  padding-bottom: 0;
+  color: $textcolor-soft;
+  font-size: 1rem;
+
+  a {
+    color: #222;
+  }
+
+  .social {
+    font-size: 2rem;
+  }
+}
+
+/* Typografy */
+
+body {
+  font-family: $font, 'Segoe UI', Verdana, sans-serif;
+  line-height: 1.5rem;
+  color: $textcolor-soft;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
