@@ -8,6 +8,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import 'variables';
 @import 'mobile-nav';
+@import 'technologies';
+@import 'technology';
+@import 'code';
+@import 'blockquotes';
 
 * {
   box-sizing: border-box;
@@ -41,8 +45,9 @@ body {
   margin: 1em auto;
 }
 
-.content {
-  max-width: 60rem;
+.content,
+.tech-info {
+  max-width: 55rem;
   width: 100%;
   margin: 2em auto;
 
@@ -56,9 +61,10 @@ body {
 }
 
 @media (min-width: 768px) {
-  .content {
+  .content,
+  .tech-info {
     font-size: 1.3em;
-    line-height: 1.2em;
+    line-height: 1.3em;
   }
 }
 
@@ -93,17 +99,9 @@ body {
   }
 }
 
-.header a {
-  color: $textcolor-soft;
-
-  &:hover {
-    color: $textcolor-headline;
-  }
-}
-
 /* Title */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .title {
     margin-top: 2em;
     margin-left: 2em;
@@ -180,6 +178,7 @@ body {
   font-family: $font, 'Segoe UI', Verdana, sans-serif;
   line-height: 1.5rem;
   color: $textcolor-soft;
+
 }
 
 p,
@@ -197,6 +196,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $font-headline;
   margin-bottom: 0.6em;
   font-weight: bold;
 }

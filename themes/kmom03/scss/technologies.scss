@@ -1,0 +1,46 @@
+.landingpage {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding: 1em;
+  max-width: 100%;
+}
+  
+.box {
+  justify-self: center;
+}
+  
+a {
+  color: $textcolor-headline;
+  font-weight: bolder;
+  
+  &:visited {
+    color: $textcolor-headline;
+  }
+  
+  &:hover {
+    color: $background-c4;
+  }
+}
+  
+@media (min-width: 768px) {
+  .landingpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+  }
+  
+  .landingpage h1 {
+    grid-column: span 3;
+    font-size: 3em;
+    justify-self: center;
+  }
+  
+  .box {
+    font-size: 2em;
+  }
+  
+  .sqlite {
+    grid-column: span 3;
+  }
+}
