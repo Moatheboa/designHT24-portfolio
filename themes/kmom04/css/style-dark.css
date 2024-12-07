@@ -6474,11 +6474,11 @@ template {
 }
 
 .box a {
-  color: #7d1a98;
+  color: #CE73E7;
   font-weight: bolder;
 }
 .box a:visited {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 .box a:hover {
   color: #f5dcdc;
@@ -6503,20 +6503,20 @@ template {
   }
 }
 .tech-menu a {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 .tech-menu a:visited {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 .tech-menu a:hover {
   color: #22292c;
 }
 
 .analyse-menu a {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 .analyse-menu a:visited {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 .analyse-menu a:hover {
   color: #f5dcdc;
@@ -6660,12 +6660,12 @@ body {
 
 .title a h1,
 .title a p {
-  color: #7d1a98;
+  color: #CE73E7;
   font-family: "Lato", sans-serif, "Segoe UI", Verdana, sans-serif;
 }
 .title a h1:hover,
 .title a p:hover {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 
 .nav {
@@ -6683,7 +6683,7 @@ body {
 }
 
 .social i {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 
 /* Title */
@@ -6783,7 +6783,7 @@ img {
 
 .nav a,
 .nav-toggle {
-  color: #7d1a98;
+  color: #CE73E7;
 }
 
 .analysis {
