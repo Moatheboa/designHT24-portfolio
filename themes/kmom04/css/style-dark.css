@@ -6461,7 +6461,7 @@ template {
     cursor: pointer;
   }
 }
-.landingpage {
+.landingpage .gallery {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
@@ -6484,6 +6484,10 @@ template {
   color: #f5dcdc;
 }
 
+.treegallery {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .landingpage {
     display: grid;
@@ -6502,6 +6506,27 @@ template {
     grid-column: span 3;
   }
 }
+@media (min-width: 1024px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-top: 1em;
+  height: 0;
+}
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .tech-menu a {
   color: #CE73E7;
 }

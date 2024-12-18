@@ -28,10 +28,11 @@ Jag använde mig av Colorzilla för att identifiera färger på hemsidorna. För
 
 Resultat
 -----------------------
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
-
-![Lindex hemsida](image/lindex.png)  
-
+  
+<picture>
+    <source media="(min-width: 768px)" srcset="%base_url%/image/lindex.png">
+    <img src="%base_url%/image/lindex.png&w=300" alt="Lindex hemsida">
+</picture>
 
 Lindex
 -----------------------
@@ -48,7 +49,10 @@ Främsta färger:
 </table>
 Font-family för all text på sidan är LindexSans, en sans-serif.
 
-![Ziiipcoffees hemsida](image/lindex.png)  
+<picture>
+    <source media="(min-width: 768px)" srcset="%base_url%/image/ziiipcoffee.png">
+    <img src="%base_url%/image/ziiipcoffee.png&w=300" alt="Ziiipcoffee's hemsida">
+</picture>
 
 
 Ziiipcoffee
@@ -74,7 +78,10 @@ Efter en nedscrollning nås man av lite mer färg:
 Font-family h1, h3: Ubuntu bold.  
 Font-family p: ibmplex-sans-regular.
 
-![Naturkompaniets hemsida](image/naturkompaniet.png)  
+<picture>
+    <source media="(min-width: 768px)" srcset="%base_url%/image/naturkompaniet.png">
+    <img src="%base_url%/image/naturkompaniet.png&w=300" alt="Naturkompaniets hemsida">
+</picture>  
 
 
 Naturkompaniet
