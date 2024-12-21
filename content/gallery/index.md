@@ -16,31 +16,31 @@ Tree gallery
 <a href="%base_url%/image/tree2.jpg" target="_blank">
     <picture class="gallerybox">
         <source media="(min-width: 1024px)" srcset="image/tree2.jpg?w=350">
-        <img src="image/tree1.jpg?w=375" alt="tree">
+        <img src="image/tree2.jpg?w=375" alt="tree">
     </picture>
 </a>
 <a href="%base_url%/image/tree3.jpg" target="_blank">
     <picture class="gallerybox">
         <source media="(min-width: 1024px)" srcset="image/tree3.jpg?w=350">
-        <img src="image/tree1.jpg?w=375" alt="tree">
+        <img src="image/tree3.jpg?w=375" alt="tree">
     </picture>
 </a>
 <a href="%base_url%/image/tree4.jpg" target="_blank">
     <picture class="gallerybox">
         <source media="(min-width: 1024px)" srcset="image/tree4.jpg?w=350">
-        <img src="image/tree1.jpg?w=375" alt="tree">
+        <img src="image/tree4.jpg?w=375" alt="tree">
     </picture>
 </a>
 <a href="%base_url%/image/tree5.jpg" target="_blank">
     <picture class="gallerybox">
         <source media="(min-width: 1024px)" srcset="image/tree5.jpg?w=350">
-        <img src="image/tree1.jpg?w=375" alt="tree">
+        <img src="image/tree5.jpg?w=375" alt="tree">
     </picture>
 </a>
 <a href="%base_url%/image/tree6.jpg" target="_blank">
     <picture class="gallerybox">
         <source media="(min-width: 1024px)" srcset="image/tree6.jpg?w=350">
-        <img src="image/tree1.jpg?w=375" alt="tree">
+        <img src="image/tree6.jpg?w=375" alt="tree">
     </picture>
 </a>
 </div>
