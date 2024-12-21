@@ -60,7 +60,9 @@ TTFB: Time To First Byte
 Anmärkningar: Ifall sidan ej godkändes av PageSpeed Insights och isf vilken kategori som var för långsam.  
 
 <div class="embed-container">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRc_ciLDhE--jgmevZl-UcbO0Q-imlZ8pOH7CYCbsNOyd1Nr1zI6V6s8dBwUURkCUoperSK3OWx6yVa/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRc_ciLDhE--jgmevZl-UcbO0Q-imlZ8pOH7CYCbsNOyd1Nr1zI6V6s8dBwUURkCUoperSK3OWx6yVa/pubhtml?widget=true&amp;headers=false" 
+        title="Spreadsheet med resultat"></iframe>
+
 </div>
 
 Analys

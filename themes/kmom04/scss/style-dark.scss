@@ -244,3 +244,17 @@ img {
   justify-content: center;
   line-height: 3em;
 }
+
+p code {
+  color: #222;
+}
+
+.analyse img {
+  border: 2em solid $background-c4;
+}
+
+@media (max-width: 767px) {
+  .analyse img {
+    border: 1em solid $background-c4;
+  }
+}

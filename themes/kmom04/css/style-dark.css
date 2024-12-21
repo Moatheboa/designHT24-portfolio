@@ -6544,7 +6544,13 @@ template {
   color: #CE73E7;
 }
 .analyse-menu a:hover {
-  color: #f5dcdc;
+  color: #22292c;
+}
+
+.tech-menu a,
+.analyse-menu a {
+  font-size: 1.5em;
+  padding-top: 1.5em;
 }
 
 @media (max-width: 767px) {
@@ -6816,4 +6822,18 @@ img {
   flex-direction: column;
   justify-content: center;
   line-height: 3em;
+}
+
+p code {
+  color: #222;
+}
+
+.analyse img {
+  border: 2em solid #22292c;
+}
+
+@media (max-width: 767px) {
+  .analyse img {
+    border: 1em solid #22292c;
+  }
 }

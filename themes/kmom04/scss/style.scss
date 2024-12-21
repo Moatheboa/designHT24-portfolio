@@ -220,6 +220,7 @@ a {
 
 img {
   max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav a,
@@ -232,4 +233,14 @@ img {
   flex-direction: column;
   justify-content: center;
   line-height: 3em;
+}
+
+.analyse img {
+  border: 2em solid $textcolor-sharp;
+}
+
+@media (max-width: 767px) {
+  .analyse img {
+    border: 1em solid $textcolor-sharp;
+  }
 }
