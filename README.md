@@ -1,2 +1,2 @@
 #Portfolio DesignHT24
-This is a webpage created through an excercise of the course Teknisk webbdesign och användbarhet at BTH, autumn 2024.
+This is a webpage created through an excercise of the course Technical webdesign and usabilty (Teknisk webbdesign och användbarhet) 7.5 credits, at BTH, autumn 2024.
